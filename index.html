@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>睿諳Eric個人頁面</title>
+  <style>
+    /* 全局設定 */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* 主容器 */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #1a73e8;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    /* 標題 */
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1a73e8;
+    }
+    /* 自介內容 */
+    .intro p {
+      margin: 10px 0;
+      text-align: center;
+    }
+    /* 連結區塊 */
+    .links {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .links a {
+      text-decoration: none;
+      color: #1a73e8;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    .links a:hover {
+      color: #0056b3;
+    
+    }
+    .rainbow-text {
+      font-size: 3em;
+      font-weight: bold;
+      /* 設定背景為線性漸層，依照彩虹順序排列 */
+      background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      background-size: 200%;  /* 增加背景尺寸以便動畫平滑移動 */
+      -webkit-background-clip: text; /* 針對webkit瀏覽器優化 */
+      background-clip: text;
+      color: transparent;  /* 將文字顏色設置為透明，讓背景露出 */
+      animation: rainbow 3s linear infinite; /* 設定動畫名稱、時長、曲線與重複次數 */
+    }
+    
+    /* 定義動畫的關鍵幀 */
+    @keyframes rainbow {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+    /* 聯絡資訊 */
+    .contact {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1.1em;
+    }
+    /* 頁尾 */
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <!-- 這邊放你的照片 -->
+        <a href="https://ibb.co/60ccwQWc"><img src="https://i.ibb.co/hFxx90mx/2b05e63a7df1c6ec25df0ce8f3f911f9.jpg" alt="2b05e63a7df1c6ec25df0ce8f3f911f9" class="profile-img"/></a>
+        <h1>個人簡介</h1>
+      </div>
+    <div class="intro">
+      <p>初次見面，我是 <strong>大學生工程師</strong>。</p>
+      <p>我最～擅長的就是有關那些程式與數理--百年難得一見的天才喔！</p>
+      <p>我遇到一切...一切~ 的問題都會完美解決。平常的興趣就是讀書與遊戲。</p>
+      <p>總之，我就是那種充滿自信、充滿活力的美少女工程師睿諳哦！</p>
+      <p>--------------------------------------- </p>
+      <p>好啦，認真介紹一下！</p>
+      <p>我目前就讀台大的機械工程師</p>
+      <p>同時還會一些簡單的技術整合跟手搓酷酷的東西！</p>
+      <p>以前曾在做minecraft地圖夢想之都工作室待過一段時間</p>
+      <p>現在超級瘋TRPG！</p>
+      <p>歡迎找我跑團帶團！</p>
+      <p>---------------------------------------- </p>
+      <p>可帶系統：</p>
+      <p>DND5e/5r</p>
+      <p>PF2r</p>
+      <p>COC7E</p>
+      <p>武林知心</p>
+      <p>Dungeon World</p>
+      <p>---------------------------------------- </p>
+      <p>目前長團：</p>
+      <p>施特拉德的詛咒</p>
+      <p>龍金劫</p>
+      <p>德拉肯海姆</p>
+      <p>毀滅元素親王</p>
+      <p>再演</p>
+      <p>私立天柱学園神話自衛委員会</p>
+      <p>王座</p>
+      <p>俠骨生花</p>
+    </div>
+    <div class="links">
+      <a href="https://www.instagram.com/wang01129/" target="_blank">IG</a>
+      <a href="https://www.dreamcity.studio/about/" target="_blank">DreamCity</a>
+      <a href="https://discord.gg/y7RYvtFXCa" target="_blank">DiscordServer</a>
+      <!-- 可依需求新增其他平台連結 -->
+    </div>
+    <div class="links">
+    <a href="http://trpg.asuscomm.com:30000/" target="_blank">FVTT施特拉德</a>
+    <a href="http://trpg.asuscomm.com:30001/" target="_blank">FVTT_PF</a>
+    <a href="http://trpg.asuscomm.com:30002/" target="_blank">FVTT王座</a>
+</div>
+    <div class="contact">
+      <p>電子信箱：<a href="mailto:ericwang01129@gmail.com">ericwang01129@gmail.com</a></p>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Eric Wang. All rights reserved.
+  </footer>
+</body>
+</html>
